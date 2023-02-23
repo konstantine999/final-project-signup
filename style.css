@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background: linear-gradient(#679CF6, #4072EE);
+}
+.container {
+    max-width: 1440px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+}
+.background-image {
+    max-width: 1190px;
+    position: absolute;
+    height: 500px;
+    bottom: 0;
+    left: 0;
+    object-fit: contain;
+}
+.signup-wrapper {
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 40px 0;
+    width: 611px;
+    height: 500px;
+    position: absolute;
+    right: 91px;
+    top: 91px;
+}
