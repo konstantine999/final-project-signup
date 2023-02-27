@@ -34,7 +34,7 @@ body {
     top: 50px;
 }
 .signup-top {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 .signup-item {
     max-width: 75%;
@@ -190,7 +190,14 @@ input::-webkit-inner-spin-button {
     .background-image {
         display: none;
     }
+    .signup-top {
+        padding-top: 20px;
+    }
     .signup-top h1 {
         font-size: 26px;
+    }
+    .social-signup button:first-child,
+    .social-signup button:last-child {
+        font-size: 10px;
     }
 }
